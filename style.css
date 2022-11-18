@@ -31,7 +31,7 @@ header {
 }
 
 .logo:hover {
-  transform: scale(1.7);
+  transform: scale(1.3);
 }
 
 /*-------- menu --------*/
@@ -317,9 +317,9 @@ section .images {
   }
 
   section .images {
-    justify-content: center;
-    margin-top: -2.55rem;
-    margin-right: 500px;
+    
+    margin-top: -2.75rem;
+    margin-left: -150;
   }
 
   section .info .text h2 {
