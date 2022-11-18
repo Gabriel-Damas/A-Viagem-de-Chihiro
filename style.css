@@ -302,9 +302,9 @@ section .images {
   }
 
   .menu li {
-    height: 1.15rem;
-    width: 1.15rem;
-    padding: 1.115rem;
+    height: 1.10rem;
+    width: 1.10rem;
+    padding: 1.110rem;
   }
 
   section {
@@ -319,7 +319,7 @@ section .images {
   section .images {
     justify-content: center;
     margin-top: -2.75rem;
-    margin-left: 0;
+    margin-left: -5;
   }
 
   section .info .text h2 {
