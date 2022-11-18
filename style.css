@@ -287,7 +287,7 @@ section .images {
 /* -------- Tablet -------- */
 @media (min-width: 481px) and (max-width: 768px) {
   header {
-    height: 3.875rem;
+    height: 2.875rem;
   }
 
   .logo {
@@ -301,9 +301,9 @@ section .images {
   }
 
   .menu li {
-    height: 1.25rem;
-    width: 1.25rem;
-    padding: 1.125rem;
+    height: 1.15rem;
+    width: 1.15rem;
+    padding: 1.115rem;
   }
 
   section {
@@ -317,13 +317,13 @@ section .images {
 
   section .images {
     justify-content: center;
-    margin-top: -3.75rem;
+    margin-top: -2.75rem;
     margin-left: 0;
   }
 
   section .info .text h2 {
-    font-size: 1.375rem;
-    line-height: 1.81rem;
+    font-size: 1.365rem;
+    line-height: 1.71rem;
     letter-spacing: 0.09rem;
   }
 
@@ -340,6 +340,6 @@ section .images {
   }
 
   .buttons {
-    margin-top: 5rem;
+    margin-top: 4rem;
   }
 }
