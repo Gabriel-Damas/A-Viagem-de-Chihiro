@@ -1,0 +1,345 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: "Poppins", sans-serif;
+  color: rgba(249, 249, 249, 1);
+}
+
+html {
+  position: fixed;
+  background: linear-gradient(rgba(98, 142, 117, 1), rgba(26, 72, 85, 1));
+  width: 100vw;
+  height: 100vh;
+}
+
+/*-------- header --------*/
+header {
+  height: 8.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*-------- logo --------*/
+.logo {
+  width: 6.25rem;
+  height: 3rem;
+  margin-left: 10.3rem;
+  margin-top: 2.56rem;
+  transition: 0.5s;
+}
+
+.logo:hover {
+  transform: scale(1.7);
+}
+
+/*-------- menu --------*/
+.menu {
+  display: flex;
+  margin-right: 11.5rem;
+  margin-top: 3.25rem;
+  z-index: auto;
+}
+
+.menu li {
+  list-style-type: none;
+  padding: 1.8rem;
+}
+
+.menu li {
+  list-style: none;
+  padding: 1.8rem;
+}
+
+.menu li {
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.menu li:hover {
+  transform: scale(1.7);
+}
+
+/*-------- Info Section --------*/
+section {
+  display: flex;
+}
+
+.info {
+  margin-left: 10.3rem;
+  margin-top: 4.75rem;
+}
+
+section .info .text h2 {
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+section .info .text h1 {
+  margin-top: 0.875rem;
+  font-size: 4.25rem;
+  line-height: 4.625rem;
+}
+
+section .info .text p {
+  margin-top: 1.56rem;
+  font-size: 1rem;
+  line-height: 1.75rem;
+}
+
+/*-------- Buttons --------*/
+.buttons {
+  display: flex;
+  margin-top: 2.875rem;
+  -webkit-transform: skew(-25deg);
+  transform: skew(-25deg);
+}
+
+.buttons .play {
+  display: inline-flex;
+  width: 14.1rem;
+  height: 2.82rem;
+  background: rgba(101, 142, 118, 1);
+  padding: 0.5rem 2.05rem 0.5rem 2rem;
+  margin-right: 0.93rem;
+  cursor: pointer;
+}
+
+.buttons .play:hover {
+  transform: scale(1.07);
+  transition: all ease 0.5s;
+}
+
+.buttons .play img {
+  -webkit-transform: skew(25deg);
+  transform: skew(25deg);
+  margin-right: 0.625rem;
+}
+
+.buttons .play p {
+  -webkit-transform: skew(25deg);
+  transform: skew(25deg);
+  font-size: 1rem;
+}
+
+.buttons .watch-trailer {
+  width: 14.1rem;
+  height: 2.82rem;
+  border: 0.125rem solid #658e76;
+  background: transparent;
+  cursor: pointer;
+
+  /* Animation -----*/
+  overflow: hidden;
+  position: relative;
+}
+
+.buttons .watch-trailer p {
+  -webkit-transform: skew(25deg);
+  transform: skew(25deg);
+  font-size: 1rem;
+
+  /* Animation -----*/
+  z-index: 20;
+}
+
+/* Animation -----*/
+.buttons .watch-trailer:after {
+  background: #fff;
+  content: "";
+  height: 9.68rem;
+  left: -4.68rem;
+  opacity: 0.2;
+  position: absolute;
+  top: -3.125rem;
+  transform: rotate(35deg);
+  transition: all 850ms cubic-bezier(0.19, 1, 0.22, 1);
+  width: 3.125rem;
+  z-index: -10;
+}
+
+.buttons .watch-trailer:hover:after {
+  left: 120%;
+  transition: all 850ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+/*-------- Images --------*/
+section .images {
+  margin-left: 2.5rem;
+  display: flex;
+  margin-top: -5rem;
+  z-index: -1;
+}
+
+.image1{
+ margin-top: 40px;
+  width: 500px;
+  position: relative;
+  display: block;
+  animation-name: imagem;
+  animation: imagem 2s infinite ease alternate;
+}
+@keyframes float {
+  0% {
+    transform: scale(1.7);
+    transform: translate(0, 0rem);
+  }
+  50% {
+    transform: scale(1.7);
+    transform: translate(0, 2.18rem);
+  }
+  100% {
+    transform: scale(1.7);
+    transform: translate(0, -0rem);
+  }
+}
+
+.image1 {
+  width: 32.5rem;
+  height: auto;
+  animation: float 8s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: scale(1.7);
+    transform: translate(0, 0rem);
+  }
+  50% {
+    transform: scale(1.7);
+    transform: translate(0, 2.18rem);
+  }
+  100% {
+    transform: scale(1.7);
+    transform: translate(0, -0rem);
+  }
+}
+
+/*------------------ Media -----------------*/
+/* -------- Phone -------- */
+@media (max-width: 480px) {
+  header {
+    height: 3.875rem;
+  }
+
+  .logo {
+    height: 3rem;
+    margin-left: 1.56rem;
+    margin-top: 0.875rem;
+  }
+
+  .menu {
+    margin-right: 0.625rem;
+    margin-top: 1.75rem;
+  }
+
+  .menu li {
+    height: 1.25rem;
+    width: 1.25rem;
+    padding: 0.75rem;
+  }
+
+  .buttons .watch-trailer {
+    display: none;
+  }
+
+  section {
+    flex-direction: column-reverse;
+  }
+
+  .info {
+    margin-left: 1.56rem;
+    margin-top: -4.375rem;
+  }
+
+  section .images {
+    justify-content: center;
+    margin-top: -4.68rem;
+    margin-left: 0;
+  }
+
+  .image1 {
+    margin-right: -13rem;
+  }
+
+  section .info .text h2 {
+    font-size: 1.125rem;
+    line-height: 1.68rem;
+  }
+
+  section .info .text h1 {
+    font-size: 3.5rem;
+    line-height: 3.8rem;
+  }
+
+  section .info .text p {
+    margin-top: 1rem;
+    font-size: 1rem;
+    line-height: 1.56rem;
+  }
+
+  .buttons {
+    margin-top: 3.625rem;
+  }
+}
+
+/* -------- Tablet -------- */
+@media (min-width: 481px) and (max-width: 768px) {
+  header {
+    height: 3.875rem;
+  }
+
+  .logo {
+    margin-left: 3.75rem;
+    margin-top: 2.5rem;
+  }
+
+  .menu {
+    margin-right: 3.75rem;
+    margin-top: 2.5rem;
+  }
+
+  .menu li {
+    height: 1.25rem;
+    width: 1.25rem;
+    padding: 1.125rem;
+  }
+
+  section {
+    flex-direction: column-reverse;
+  }
+
+  .info {
+    margin-left: 3.125rem;
+    margin-top: -7.5rem;
+  }
+
+  section .images {
+    justify-content: center;
+    margin-top: -3.75rem;
+    margin-left: 0;
+  }
+
+  section .info .text h2 {
+    font-size: 1.375rem;
+    line-height: 1.81rem;
+    letter-spacing: 0.09rem;
+  }
+
+  section .info .text h1 {
+    font-size: 4rem;
+    line-height: 4.375rem;
+  }
+
+  section .info .text p {
+    margin-top: 1rem;
+    font-size: 1.375rem;
+    line-height: 1.75rem;
+    letter-spacing: 0.08rem;
+  }
+
+  .buttons {
+    margin-top: 5rem;
+  }
+}
