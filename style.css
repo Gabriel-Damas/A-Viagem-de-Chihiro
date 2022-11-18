@@ -196,10 +196,9 @@ section .images {
 }
 
 .image1 {
-  width: 25.5rem;
+  width: 24.5rem;
   height: auto;
   justify-content:flex-start;
-  
   animation: float 8s ease-in-out infinite;
 }
 
@@ -258,11 +257,11 @@ section .images {
   section .images {
     justify-content: center;
     margin-top: -2.68rem;
-    margin-left: -500px;
+    margin-left: -50px;
   }
 
   .image1 {
-    margin-right: -10rem;
+    margin-right: -1rem;
   }
 
   section .info .text h2 {
