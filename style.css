@@ -199,6 +199,7 @@ section .images {
   width: 25.5rem;
   height: auto;
   justify-content:flex-start;
+  margin-left: 15px;
   animation: float 8s ease-in-out infinite;
 }
 
