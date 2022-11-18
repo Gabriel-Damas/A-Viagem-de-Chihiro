@@ -166,7 +166,7 @@ section .info .text p {
 
 /*-------- Images --------*/
 section .images {
-  margin-left: 2.5rem;
+  margin-left: 20.5rem;
   display: flex;
   margin-top: -5rem;
   z-index: -1;
@@ -317,7 +317,7 @@ section .images {
   }
 
   section .images {
-    justify-content:space-around;
+    justify-content:flex-start;
     margin-top: -2.75rem;
     margin-left: -150;
   }
