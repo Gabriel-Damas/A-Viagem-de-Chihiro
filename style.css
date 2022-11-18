@@ -198,6 +198,7 @@ section .images {
 .image1 {
   width: 25.5rem;
   height: auto;
+  margin-left: -15%;
   animation: float 8s ease-in-out infinite;
 }
 
@@ -322,19 +323,19 @@ section .images {
   }
 
   section .info .text h2 {
-    font-size: 1.365rem;
-    line-height: 1.71rem;
+    font-size: 1.355rem;
+    line-height: 1.67rem;
     letter-spacing: 0.09rem;
   }
 
   section .info .text h1 {
-    font-size: 4rem;
+    font-size: 3.8rem;
     line-height: 4.375rem;
   }
 
   section .info .text p {
     margin-top: 1rem;
-    font-size: 1.375rem;
+    font-size: 1.365rem;
     line-height: 1.75rem;
     letter-spacing: 0.08rem;
   }
