@@ -198,7 +198,7 @@ section .images {
 .image1 {
   width: 25.5rem;
   height: auto;
-  margin-left: -15%;
+  
   animation: float 8s ease-in-out infinite;
 }
 
@@ -261,7 +261,7 @@ section .images {
   }
 
   .image1 {
-    margin-right: -11rem;
+    margin-right: -1rem;
   }
 
   section .info .text h2 {
