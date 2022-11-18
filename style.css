@@ -319,11 +319,11 @@ section .images {
   section .images {
     justify-content: center;
     margin-top: -2.75rem;
-    margin-left: -50;
+    margin-left: -100;
   }
 
   section .info .text h2 {
-    font-size: 1.355rem;
+    font-size: 1.335rem;
     line-height: 1.67rem;
     letter-spacing: 0.09rem;
   }
