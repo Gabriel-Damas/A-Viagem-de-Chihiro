@@ -317,7 +317,7 @@ section .images {
   }
 
   section .images {
-    
+    justify-content:flex-start;
     margin-top: -2.75rem;
     margin-left: -150;
   }
