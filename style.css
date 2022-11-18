@@ -196,7 +196,7 @@ section .images {
 }
 
 .image1 {
-  width: 24.5rem;
+  width: 24.0rem;
   height: auto;
   justify-content:flex-start;
   animation: float 8s ease-in-out infinite;
