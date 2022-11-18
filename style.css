@@ -196,7 +196,7 @@ section .images {
 }
 
 .image1 {
-  width: 28.5rem;
+  width: 25.5rem;
   height: auto;
   animation: float 8s ease-in-out infinite;
 }
@@ -235,8 +235,8 @@ section .images {
   }
 
   .menu li {
-    height: 1.25rem;
-    width: 1.25rem;
+    height: 1.15rem;
+    width: 1.15rem;
     padding: 0.75rem;
   }
 
@@ -255,7 +255,7 @@ section .images {
 
   section .images {
     justify-content: center;
-    margin-top: -4.68rem;
+    margin-top: -2.68rem;
     margin-left: 0;
   }
 
@@ -264,12 +264,12 @@ section .images {
   }
 
   section .info .text h2 {
-    font-size: 1.125rem;
-    line-height: 1.68rem;
+    font-size: 1.115rem;
+    line-height: 1.58rem;
   }
 
   section .info .text h1 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     line-height: 3.8rem;
   }
 
