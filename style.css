@@ -319,7 +319,7 @@ section .images {
   section .images {
     justify-content: center;
     margin-top: -2.75rem;
-    margin-left: -5;
+    margin-left: -50;
   }
 
   section .info .text h2 {
