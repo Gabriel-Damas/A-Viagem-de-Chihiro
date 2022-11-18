@@ -256,13 +256,13 @@ section .images {
   }
 
   section .images {
-    justify-content:flex-start;
+    justify-content: center;
     margin-top: -2.68rem;
-    margin-left: -50px;
+    margin-left: -500px;
   }
 
   .image1 {
-    margin-right: -1rem;
+    margin-right: -10rem;
   }
 
   section .info .text h2 {
